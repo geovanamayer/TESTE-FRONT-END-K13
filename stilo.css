@@ -1,0 +1,309 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: RedHatText;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #ffffff 16.62%, #bbdeff 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 70px;
+  width: 70px;
+  margin-right: 20PX;  
+}
+.cabecalho-imagem-1 {
+    height: 30px;
+    width: 30px;
+  }
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #050743;
+  font-weight: 400;
+  font-size: 20px
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: #ECD6C4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2F2325;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+  height: 730px;
+  display: fixed;
+  margin:  0px;
+  
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+
+
+.conteudo-secundario-paragrafo-1 {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  
+  .conteudo-secundario-titulo-sobre {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+    display: table-cell;
+    float: left;
+  }
+  
+  
+  .conteudo-segunda-imagem {
+    width: 1460px;
+    height: 300px;
+    display: fixed;
+    margin: 10px;
+    
+  }
+  .slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.imagem-centro{
+    width: 500px;
+    height: 400px;
+    display: fixed;
+    margin:  0px;
+}
+.conteudo-proposito1{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #07070a;
+    margin-left: 300px;
+}
+.conteudo-proposito2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementos com o ID "titulo" */
+#titulo {
+    font-family: sans-serif;
+    color: #1c00b8;
+    margin-left: 7%;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family: sans-serif;
+    color: #0207a3;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+body{
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+   justify-content: center;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    font-size: 1.2em;
+    background: #7c90f6;
+    border: 0;
+    margin-bottom: 1em;
+    color: #010003;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #c6a8ee;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+    margin-left: 730px;
+}
+img{
+    height: 300px;
+    display: table-cell;
+    float: left;
+}
+.container{
+    display: table;
+    align-items: center;
+
+}
+
+.conteudo-secundario-titulo-1 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000bdb;
+    margin-bottom: 16px;
+
+}
+
+.conteudo-secundario-titulo-2 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000bdb;
+    margin-bottom: 16px;
+    display: table-cell;
+    float: left;
+    margin-left: 600px;
+    margin-top: -350px;
+    
+}
+
+.cadastro{
+    margin-right: -4500px;
+}
+.campo{
+    margin-left: 600px;
+}
+.campo-e{
+    margin-left: 600px;
+}
+
+  
+.rodape {
+    margin-left: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape1 {
+  height: 48px;
+  display: block;
+  margin-top: 40px;
+  margin-left: 650px;
+  
+}
